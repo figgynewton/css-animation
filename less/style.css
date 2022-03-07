@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+}
+@keyframes squirm {
+  0% {
+    height: 100px;
+    width: 100px;
+    left: 0;
+    top: 0;
+  }
+  12.5% {
+    height: 500px;
+    width: 50px;
+    left: 0;
+    top: 0;
+  }
+  25% {
+    height: 100px;
+    width: 100px;
+    left: 0;
+    top: 500px;
+  }
+  37.5% {
+    height: 50px;
+    width: 500px;
+    left: 0;
+    top: 500px;
+  }
+  50% {
+    height: 100px;
+    width: 100px;
+    left: 400px;
+    top: 400px;
+  }
+  62.5% {
+    height: 500px;
+    width: 50px;
+    left: 500px;
+    top: 0;
+  }
+  75% {
+    height: 100px;
+    width: 100px;
+    left: 500px;
+    top: 0;
+  }
+  87.5% {
+    height: 50px;
+    width: 500px;
+    left: 0;
+    top: 0;
+  }
+  100% {
+    height: 100px;
+    width: 100px;
+    left: 0;
+    top: 0;
+  }
+}
+.container {
+  height: 500px;
+  width: 100px;
+  position: relative;
+}
+.worm {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: relative;
+  animation-name: squirm;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
